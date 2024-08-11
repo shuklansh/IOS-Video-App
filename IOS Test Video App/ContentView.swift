@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        var body: some View {
+            ScrollView(content: {
+                VStack {
+                    ForEach(0..<10, id: \.self) { count in
+                        ReelView()
+                    }
+                }
+            })
+            .background(.black)
+            .ignoresSafeArea()
         }
-        .padding()
-    }
 }
 
 #Preview {

@@ -14,6 +14,7 @@
 		1B87D0792C2F00350072A225 /* IOS_Test_Video_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87D0782C2F00350072A225 /* IOS_Test_Video_AppTests.swift */; };
 		1B87D0832C2F00350072A225 /* IOS_Test_Video_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87D0822C2F00350072A225 /* IOS_Test_Video_AppUITests.swift */; };
 		1B87D0852C2F00350072A225 /* IOS_Test_Video_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87D0842C2F00350072A225 /* IOS_Test_Video_AppUITestsLaunchTests.swift */; };
+		1B87D0922C2F0A020072A225 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87D0912C2F0A020072A225 /* ReelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		1B87D07E2C2F00350072A225 /* IOS Test Video AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS Test Video AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B87D0822C2F00350072A225 /* IOS_Test_Video_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Test_Video_AppUITests.swift; sourceTree = "<group>"; };
 		1B87D0842C2F00350072A225 /* IOS_Test_Video_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Test_Video_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B87D0912C2F0A020072A225 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				1B87D0662C2F001B0072A225 /* IOS_Test_Video_AppApp.swift */,
 				1B87D0682C2F001B0072A225 /* ContentView.swift */,
+				1B87D0912C2F0A020072A225 /* ReelView.swift */,
 				1B87D06A2C2F00330072A225 /* Assets.xcassets */,
 				1B87D06C2C2F00330072A225 /* IOS_Test_Video_App.entitlements */,
 				1B87D06D2C2F00330072A225 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B87D0922C2F0A020072A225 /* ReelView.swift in Sources */,
 				1B87D0692C2F001B0072A225 /* ContentView.swift in Sources */,
 				1B87D0672C2F001B0072A225 /* IOS_Test_Video_AppApp.swift in Sources */,
 			);
